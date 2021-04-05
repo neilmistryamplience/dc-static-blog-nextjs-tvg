@@ -149,6 +149,7 @@
     "react-syntax-highlighter": "^12.2.1",
     "search-insights": "^1.6.2",
     "swr": "^0.2.3",
-    "uuidv4": "^6.1.1"
+    "uuidv4": "^6.1.1",
+    "webpack": "^4.46.0"
   }
 }
