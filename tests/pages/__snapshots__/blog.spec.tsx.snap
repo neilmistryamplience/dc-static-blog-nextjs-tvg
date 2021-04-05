@@ -869,6 +869,7 @@ exports[`Blog page renders Blog page with content 1`] = `
         className=""
       >
         <button
+          aria-label="Accept cookies"
           className="cookie-banner-btn"
           id="rcc-confirm-button"
           onClick={[Function]}

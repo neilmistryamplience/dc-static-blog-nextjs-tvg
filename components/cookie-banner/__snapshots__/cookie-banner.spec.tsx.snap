@@ -41,6 +41,7 @@ exports[`CookieBanner renders cookie consent banner 1`] = `
     className=""
   >
     <button
+      aria-label="Accept cookies"
       className="cookie-banner-btn"
       id="rcc-confirm-button"
       onClick={[Function]}

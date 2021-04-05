@@ -2,7 +2,7 @@
 
 exports[`Index components should render index 1`] = `
 <_default>
-  <b
+  <_default
     description="heading"
     title="Blog"
   />
