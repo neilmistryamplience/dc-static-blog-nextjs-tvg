@@ -2,7 +2,7 @@ import React from 'react';
 import Error from 'next/error';
 import Layout from '../layouts/default';
 import { NextPage } from 'next';
-import { NextSeo } from 'next-seo/lib';
+import { NextSeo } from 'next-seo';
 
 interface CustomErrorProps {
   statusCode: number | undefined;

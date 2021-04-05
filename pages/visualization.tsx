@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import Layout from '../layouts/default';
 import Visualization from '../components/visualization/visualization';
 import { useRouter } from 'next/router';
-import { NextSeo } from 'next-seo/lib';
+import { NextSeo } from 'next-seo';
 
 const VisualizationPage = (): ReactElement => {
   const router = useRouter();

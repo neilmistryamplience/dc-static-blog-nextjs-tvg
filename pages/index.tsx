@@ -64,7 +64,7 @@ const Index: NextPage<IndexProps> = ({ title, heading, searchPlaceHolder, buildT
   );
 
   useSWR('index', async () => {
-    const { data: resultState } = await findResultsState(InstantSearch, {
+    const { data: resultState } = await findResultsState(InstantSearch as any, {
       searchClient,
       indexName: process.env.SEARCH_INDEX_NAME_PRODUCTION as string,
       searchState
@@ -125,7 +125,7 @@ Index.getInitialProps = async (): Promise<IndexProps> => {
 
   try {
     const blog = await getBlogContentItem(process.env.DYNAMIC_CONTENT_DELIVERY_KEY as string);
-    const buildTimeResultState = await findResultsState(InstantSearch, {
+    const buildTimeResultState = await findResultsState(InstantSearch as any, {
       searchClient,
       indexName: process.env.SEARCH_INDEX_NAME_PRODUCTION as string
     });

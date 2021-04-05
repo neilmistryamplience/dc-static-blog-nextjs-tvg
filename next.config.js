@@ -148,7 +148,7 @@ module.exports = invokePlugins({
   env,
   exportPathMap,
   manifest,
-  exportTrailingSlash: true,
+  trailingSlash: true,
   workboxOpts: {
     runtimeCaching: [
       {

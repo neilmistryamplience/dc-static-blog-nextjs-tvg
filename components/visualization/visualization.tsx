@@ -67,7 +67,7 @@ export default class Visualization extends Component<VisualizationProps, Visuali
 
     const indexName = process.env.SEARCH_INDEX_NAME_STAGING as string;
 
-    const resultsState = await findResultsState(InstantSearch, {
+    const resultsState = await findResultsState(InstantSearch as any, {
       searchClient,
       indexName
     });
